@@ -9,6 +9,7 @@
             "environmentName": "sandbox",
             "startupObjectId": 50101,
             "startupObjectType": "Page",
+            "schemaUpdateMode": "Recreate",
             "breakOnError": "All",
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
