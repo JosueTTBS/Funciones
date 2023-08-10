@@ -36,6 +36,10 @@ page 50101 PaginaPrueba
                 {
                     ToolTip = 'Specifies additional address information.';
                 }
+                field(Texto; Rec.TestFieldTXT)
+                {
+                    ToolTip = 'tooltip';
+                }
             }
         }
     }

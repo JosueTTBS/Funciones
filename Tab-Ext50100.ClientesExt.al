@@ -1,4 +1,4 @@
-tableextension 50100 ClientesExt extends Customer
+tableextension 50102 ClientesExt extends Customer
 {
     fields
     {
@@ -17,10 +17,6 @@ tableextension 50100 ClientesExt extends Customer
             Caption = 'TestFieldTime';
             DataClassification = ToBeClassified;
         }
-        field(50103; ""; )
-        {
-            Caption = '';
-            DataClassification = ToBeClassified;
-        }
+
     }
 }
