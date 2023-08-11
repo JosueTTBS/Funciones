@@ -5,7 +5,7 @@ page 50101 "TestPage"
     PageType = List;
     SourceTable = TestTable;
     UsageCategory = Lists;
-    
+
     layout
     {
         area(content)
@@ -22,9 +22,29 @@ page 50101 "TestPage"
                 }
                 field(Numero; Rec.Numero)
                 {
+
                     ToolTip = 'Specifies the value of the Numero field.';
                 }
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(ActionName)
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+
+                end;
+
+            }
+        }
+    }
+
+    var
+        myInt: Integer;
 }
